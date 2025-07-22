@@ -1,0 +1,126 @@
+*{
+	margin:0px;
+	padding:0px;}
+body
+{
+	background-color: black;
+	background-size: 100%;
+    background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#outerbox{
+	width: 1310px;
+	height:1500px;
+	background-color: black;
+		
+}
+#a{
+	width: 1310px;
+	height: 120px;
+	background-color: white;
+	background-image: url('../images/777x.jpg');
+}
+#b{
+	width: 1310px;
+	height: 496px;
+background-color: black;
+}
+#b1{
+	width: 400px;
+	height: 400px;
+
+	float: left;
+}
+#b2{
+	width: 910px;
+	height: 496px;
+
+	float: left;
+	background-image: url('../images/xxxx.jpg');
+}
+#b3{
+	width: 1310px;
+	height: 200px;
+     float: left;
+     background-color: blue;
+     background-image: url('../images/xxx.jpg');
+}
+#b1b{
+     width: 500px;
+	height: 200px;
+     float: left;
+     }
+     #b2b{
+     width: 310px;
+	height: 200px;
+     float: left;
+     background-color: black;
+    border-radius:40px;
+
+    }
+    #b3b{
+    width: 500px;
+	height: 200px;
+     float: right;
+     }
+
+
+#h{
+	width: 1310px;
+	height: 100px;
+
+	float: left;
+
+
+	
+
+}
+#hh{width: 1310px;
+	height: 500px;
+
+	
+
+
+}
+#h1{
+	width: 600px;
+	height: 500px;
+	background-color: red;
+	float: left;
+	margin-left: 10px;
+
+
+}
+#h2{
+	width: 600px;
+	height: 500px;
+	background-color: blue;
+	float: right;
+	margin-right: 10px;
+
+}
+#hh1{
+	width: 600px;
+	height: 100px;
+	background-color: blue;
+	background-image: url('../images/x.jpg');
+
+
+}
+#hh2{width: 600px;
+	height: 100px;
+	background-color: blue;
+	background-image: url('../images/x.jpg');
+
+}
+#hhh1{width: 600px;
+	height: 400px;
+	background-image: url('../images/eye.jpg');
+
+
+}
+#hhh2{width: 600px;
+	height: 400px;
+background-image: url('../images/eye2.jpg');
+
+}

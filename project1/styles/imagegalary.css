@@ -1,0 +1,96 @@
+/*styling contents*/
+*{margin:0;
+ padding: 0;
+}
+#topheader{
+    
+    border-bottom: 1px solid #ebebeb;
+    
+}
+
+#topheader a{
+    color:#2c3e50;
+    font-weight: 600;
+    font-size: 0.89rem;
+}
+.blue{
+	color: blue;
+}
+.red{
+  color:red;
+}
+
+nav ul li a{
+    font-size:1.1em;
+    font-weight:600;
+}
+.container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    border:0;
+}
+
+
+
+.jumbotron {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 0;
+    background-color:#fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: 4rem;
+      padding-bottom: 2rem;
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-size: 3rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+
+.overlay {
+    position: absolute; 
+    bottom: 0; 
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1; 
+    width: 100%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  
+
+  /* When you mouse over the container, fade in the overlay title */
+  .card:hover .overlay {
+    opacity: 1;
+  }

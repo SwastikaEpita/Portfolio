@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="author" content="Swastika"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Pastry Emporium</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+
+    <!--fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.0/css/all.css">
+    
+
+    <!--Our Custom CSS style sheet-->
+    <link rel="stylesheet" href="styles/booking.css">
+    
+  </head><!--head closes-->
+  <body><!--body opens-->
+
+    <header><!--header opens-->
+      <div class="p-1" id="topheader"><!--topheader opens-->
+        <div id="container"><!--container opens-->
+        <div id="row"><!--row opens-->
+        <div class="col-12 text-right">
+        <a class="p-1" href="tel:+9779876543210" target="_blank" data-toggle="tooltip" title="call now"><i class="fas fa-phone blue"></i>+(977) 9876543210</a>
+        <a class="p-1" href="mailto:pastryemporium@gmail.com" target="_blank"><i class="fas fa-envelope-square red"></i> pastemp@gmail.com</a>
+        </div><!--col-xs-12 -->
+        </div><!--row ends-->
+        </div><!--container closes-->
+        </div><!--topheader closes-->
+    
+    <div id="bottomheader"><!--bottomheader opens-->
+    <div id="container-fluid"><!--container-fluid opens-->
+    <div class="navbar navbar-dark navbar-expand-md" style="background-color:black">
+    <a class="navbar-brand" href="">
+    <img src="images/logo1.jpg" width="250" alt="Pastry Emporium"></a>
+    <button data-toggle="collapse" data-target="#navbarToggler" type="button" class="navbar-toggler"><span class="navbar-toggler-icon"></span></button>
+    
+    
+    <div class="collapse navbar-collapse" id="navbarToggler"><!--collapse opens-->
+    <ul class ="navbar-nav">
+    
+    <li class="nav-item active">
+    <a class="nav-link" href="index.html" target="_blank"><i class="fas fa-home "></i>Home</a>
+    </li>
+    
+    <li class="nav-item active">
+    <a class="nav-link" href="aboutus.html" target="_blank"><i class="fab fa-adn"></i>About Us</a>
+    </li>
+    
+    
+    <li class="nav-item active">
+      <a class="nav-link" href="imagegallery.html" target="_blank"><i class="fas fa-images"></i>Image Gallery</a>
+      </li>
+      
+    
+    
+    <li class="nav-item active">
+    <a class="nav-link" href="booking.html" target="_blank"><i class="fas fa-book"></i>Booking</a>
+    </li>
+      
+ 
+    <li class="nav-item active">
+        <a class="nav-link" href="contact.html" target="_blank"><i class="fas fa-phone-square"></i>Contact Us</a>
+        </li>
+      
+    </ul>
+    
+    </div>
+    </div><!--container closes-->
+    </div><!--bottomheader closes-->
+    </div>
+    </header><!--header closes-->
+
+          <main><!--main opens-->
+
+
+        <div class="container"><!--container opens-->
+                <div class="py-5 text-center">
+                 
+                  <h2>Ordering Form</h2>
+                 
+                </div>
+              
+                
+                
+                  <div class="col-md-12 order-md-1">
+                
+                    <form class="needs-validation" novalidate>
+                      <div class="row"><!--row opens-->
+                        <div class="col-md-6 mb-3">
+                          <label for="firstName">First Name</label>
+                          <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+                          <div class="invalid-feedback">
+                            Valid first name is required.
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <label for="lastName">Last Name</label>
+                          <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+                          <div class="invalid-feedback">
+                            Valid last name is required.
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="mb-3">
+                        <label for="email">Email</label>
+                        <div class="input-group">
+                         
+                          <input type="text" class="form-control" id="email" placeholder="pastryemporium@gmail.com" required>
+                          <div class="invalid-feedback" style="width: 100%;">
+                           Please enter a valid email.
+                          </div>
+                        </div>
+                      </div>
+              
+                      <div class="mb-3">
+                        <label for="contactno">Contact No</label>
+                        <input type="text" class="form-control" id="contactno" placeholder="+977 9876543210" required>
+                        <div class="invalid-feedback">
+                          Please enter a valid phoneno.
+                        </div>
+                      </div>
+              
+                      <div class="mb-3">
+                        <label for="contactno">Contact No 2<span class="text-muted">(Optional)</span></label>
+                        <input type="text" class="form-control" id="contactnos" placeholder="+977 9867543219" required>
+                        <div class="invalid-feedback">
+                          Please enter a valid phoneno.
+                        </div>
+                      </div>
+
+                      <div class="mb-3">
+                        <label for="address">Address</label>
+                        <input type="text" class="form-control" id="address" placeholder="Satdobato-15, Lalitpur" required>
+                        <div class="invalid-feedback">
+                          Please enter a valid address.
+                        </div>
+                      </div>
+              
+                      
+                      <div class="row">
+                        <div class="col-md-5 mb-3">
+                          <label for="bakeryItem">Bakery Item Name</label>
+                          <select class="custom-select d-block w-100" id="bakeryItem" required>
+                            <option value="">Choose...</option>
+                            <option>Cake</option>
+                            <option>DoughNut</option>
+                            <option>CupCake</option>
+                            <option>Pastry</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid bakery item.
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="flavour">Flavour</label>
+                          <select class="custom-select d-block w-100" id="flavour" required>
+                            <option value="">Choose...</option>
+                            <option>Chocolate</option>
+                            <option>Strawberry</option>
+                            <option>Vanilla</option>
+                            <option>Red Velvet</option>
+                            <option>Mango</option>
+                            <option>Coffee</option>
+                            
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid flavour.
+                          </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="allergy">Any kind of Allergy<span class="text-muted">(Specify)</span></label>
+                          <input type="text" class="form-control" id="allergy" placeholder="" required>
+                          <div class="invalid-feedback">
+                           Allergy kind of allergy must be specified.
+                          </div>
+                        </div>
+                      </div>
+
+
+
+
+
+                      <div class="row">
+                        <div class="col-md-5 mb-3">
+                          <label for="itemno">Number of Items </label>
+                          <select class="custom-select d-block w-100" id="itemno" required>
+                            <option value="">Choose...</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                            <option>13</option>
+                            <option>14</option>
+                            <option>14</option>
+                            <option>15</option>
+                            <option>16</option>
+                            <option>17</option>
+                            <option>18</option>
+                            <option>19</option>
+                            <option>20</option>
+                            <option>21</option>
+                            <option>22</option>
+                            <option>23</option>
+                            <option>24</option>
+                            <option>25</option>
+                            <option>26</option>
+                            <option>27</option>
+                            <option>28</option>
+                            <option>29</option>
+                            <option>30</option>
+                            <option>31</option>
+                            <option>32</option>
+                            <option>33</option>
+                            <option>34</option>
+                            <option>35</option>
+                            <option>36</option>
+                            <option>37</option>
+                            <option>38</option>
+                            <option>39</option>
+                            <option>40</option>
+                            <option>41</option>
+                            <option>42</option>
+                            <option>43</option>
+                            <option>44</option>
+                            <option>45</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please select a valid item number.
+                          </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                          <label for="size">Size of Cake</label>
+                          <select class="custom-select d-block w-100" id="size" required>
+                            <option value="">Choose...</option>
+                            <option>1</option>
+                            <option>2</option>
+                            <option>3</option>
+                            <option>4</option>
+                            <option>5</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                            <option>11</option>
+                            <option>12</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please provide a valid size.
+                          </div>
+                        </div>
+                        <div class="col-md-3 mb-3">
+                          <label for="customized">Customized Cake</label>
+                          <select class="custom-select d-block w-100" id="customized" required>
+                            <option value="">Choose...</option>
+                            <option> Apple & Cinnamon.
+                            </option>
+                            <option>Lime & Poppyseed </option>
+                            <option>Chocolate Mint </option>
+                            <option> Cherry</option>
+                            <option> Coconut</option>
+                            <option> Guava</option>
+                          </select>
+                          <div class="invalid-feedback">
+                            Please choose the ingredients.
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="mb-4">
+            
+                      <h4 class="mb-3">Method of Payment</h4>
+              
+                      <div class="d-block my-3">
+                        <div class="custom-control custom-radio">
+                          <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked required>
+                          <label class="custom-control-label" for="credit">Credit card</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input id="debit" name="paymentMethod" type="radio" class="custom-control-input" required>
+                          <label class="custom-control-label" for="debit">Debit card</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input id="paypal" name="paymentMethod" type="radio" class="custom-control-input" required>
+                          <label class="custom-control-label" for="paypal">PayPal</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                            <input id="cash" name="paymentMethod" type="radio" class="custom-control-input" required>
+                            <label class="custom-control-label" for="paypal">Cash on Delivery</label>
+                          </div>
+                      </div>
+                      <div class="row"><!--row opens-->
+                        <div class="col-md-6 mb-3">
+                          <label for="cc-name">Name on card</label>
+                          <input type="text" class="form-control" id="cc-name" placeholder="" required>
+                          <small class="text-muted">Full name is required</small>
+                          <div class="invalid-feedback">
+                            Name on card is required
+                          </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <label for="cc-number">Credit card number</label>
+                          <input type="text" class="form-control" id="cc-number" placeholder="" required>
+                          <div class="invalid-feedback">
+                            Credit card number is required
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row"><!--row opens-->
+                       
+                        <div class="col-md-3 mb-3">
+                          <label for="cc-cvv">CVV</label>
+                          <input type="text" class="form-control" id="cc-cvv" placeholder="" required>
+                          <div class="invalid-feedback">
+                            Security code is required
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="custom-control custom-checkbox">
+                        <input type="checkbox" class="custom-control-input" id="same-address">
+                        <label class="custom-control-label" for="same-address">All the information I have provided is true</label>
+                      </div>
+                      
+    
+
+
+
+                      <hr class="mb-4">
+                      <button class="btn btn-primary btn-lg btn-block" type="submit">Order Now</button>
+                      <br>
+                      <button onclick ="window.print()" value="print">Print</button>
+        
+                    </form>
+                  </div>
+                </div>
+              
+
+            </main>
+           
+            <!-- FOOTER -->
+<footer class="container">
+    <hr class="featurette-divider">
+  <div class ="row">
+  <div class="col-md-6 col-lg-3 col-xl-3 col-xs-12 col-sm-12">
+      <img class="img-fluid" src="images/logo1.jpg" alt="">
+      <p>
+        Pastry Emporium is one of the famous bakery all over the world. The bakery items made here with natural ingredients...<a href="aboutus.html">Read More...</a>
+        </p>
+        <a style="color:#0000ff"  href="https://www.facebook.com/"><i class="fab fa-2x fa-facebook-square "></i></a>
+        <a style="color:#ff4500"   href="https://www.instagram.com/"><i class="fab fa-2x fa-instagram"></i></a>
+        
+        <a style="color:#20b2aa" href="https://twitter.com/"><i class="fab fa-2x fa-twitter-square"></i></a>
+       <a style="color:#008000" href="https://aboutme.google.com/u/0/?referer=gplus"><i class="fab fa-2x fa-google-plus"></i></a>
+  </div>
+       <div class="col-md-6 col-lg-3 col-xl-3 col-xs-12 col-sm-12">
+              <h3>Important Links</h3>
+             
+              
+              <a href="aboutus.html">Privacy Policy</a><br>
+              <a href="aboutus.html">Nutritional Facts </a><br>
+              <a href="aboutus.html">Order Online/ Products</a><br>
+              <a href="aboutus.html">Allergy Information</a><br>
+            
+              
+             
+              <a href="aboutus.html">Store Items/ Shipping</a><br>
+              <a href="aboutus.html">Hygiene Standard</a><br>
+             
+            </div>
+            <div class="col-md-6 col-lg-3 col-xl-3 col-xs-12 col-sm-12">
+                  <h3>Our Services</h3>
+                  <a href="aboutus.html">Free Delivery</a><br>
+                  <a href="aboutus.html">Customized Cake</a><br>
+                  <a href="aboutus.html">Catering Service</a><br> 
+                  <a href="aboutus.html">Discount and offers</a><br>
+                  
+                  <a href="aboutus.html">Live Cupcake Bar</a><br> 
+                  <a href="aboutus.html">Special Orders</a><br> 
+                 
+
+
+
+              </div>
+                  
+                    <div class="col-md-6 col-lg-3 col-xl-3 col-xs-12 col-sm-12">
+                        <h3>Contact Us</h3>
+                        
+
+                        <a class="p-1" href="tel:+9779876543210"><i class="fas fa-phone blue"></i>+(977) 9876543210</a><br>
+                        <a class="p-1" href="mailto:pastryemporium@gmail.com"><i class="fas fa-envelope-square red"></i> pastryemporium@gmail.com</a>
+                      
+                      
+                      
+                      
+                        <div class="map-responsive">
+                          <iframe src="https://maps.google.com/maps?q=satdobato&t=k&z=13&ie=UTF8&iwloc=&output=embed" width="600" height="450"  style="border:0" allowfullscreen></iframe>
+                      </div>
+                      
+                      </div>
+
+
+
+                   </div><!--row closes-->
+                
+                
+                
+                
+                
+                <hr>
+                
+                <div class="col-12"><!--col-12 opens-->
+                
+                     
+                
+
+                <p class="float-left">Copyrights © 2019 - All rights reserved</p>
+                <p class="float-right"><a href="#">Back to top</a></p>
+                
+                
+                
+                </div><!--col-12 closes-->
+
+                </footer><!--footer closes-->
+                
+      
+                      <!--javascript-->
+                      <script src="bootstrap/js/jquery-3.3.1.min.js"></script>
+                     <script src="bootstrap/js/bootstrap.min.js"></script>
+                      <script src="bootstrap/js/jquery-3.4.0.min.js"></script>
+                     <script src ="scripts/formvalidation.js"></script>
+                   
+
+
+</body><!--body closes-->
+</html><!--html closes-->
+
+
+
+
+            

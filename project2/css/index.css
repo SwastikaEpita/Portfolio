@@ -1,0 +1,161 @@
+*{
+	margin:0px;
+	padding:0px;}
+body
+{
+	background-color: #000000;
+	background-size: 100%;
+	background-image: url('../images/2.jpg');
+	background-repeat: repeat;
+	background-attachment: fixed;
+}
+#outerbox{
+	width:960px;
+	min-height: 2000px;
+	background-color: #000000;
+	margin: auto;
+	border-radius: 25px 25px 0px 0px;
+}
+#banner
+{
+	
+	width:960px;
+	min-height: 150px;
+	background-color: #f44542;
+	border-radius: 25px 25px 0px 0px;
+	background-image: url('../images/banner1.jpg');
+}
+
+#introduction
+{
+	width: 960px;
+	min-height: 50px;
+	background-color: #161616;
+	border-radius: 0px 0px 25px 25px;
+
+}
+/*remove bullets*/
+#five ul{
+	list-style-type: none;
+	padding-left: 190px;
+
+	float: center;
+	margin-top: 10px;
+	padding-top: 12px;
+
+}
+#five ul li{
+	display: inline;
+	margin:10px;
+	padding:10px;
+}
+#five ul li:hover{
+	background-color: #c92693;
+	margin: 0px;
+	padding: 0px;
+}
+	
+
+
+}
+#pictures{
+	width: 960px;
+	height: 100px;
+	background-color: #000000;
+
+}
+#box1{
+	width: 250px;
+	height: 100px;
+	float: left;
+	background-color: blue;
+	background-image: url('../images/pa.jpg');
+	border-radius: 10px;
+	border-color: white;
+
+}
+#boxa{
+	width: 710px;
+	height: 100px;
+	float: right;
+	background-color: black;
+}
+
+#pictures1{
+	width: 960px;
+	height: 100px;
+	background-color: black;
+
+}
+#box2{
+	width: 250px;
+	height: 100px;
+	float: right;
+	background-color: black;
+	background-image: url('../images/be.jpg'); 
+     border-radius: 10px;
+	border-color: white;
+	
+}
+#boxb{
+	width: 710px;
+	height: 100px;
+	float: right;
+	background-color: black;
+}
+#pictures11{
+	width: 960px;
+	height: 100px;
+	background-color: black;
+
+}
+#box3{
+	width: 250px;
+	height: 100px;
+	float: left;
+	background-color: black;
+	background-image: url('../images/t.jpg'); 
+     border-radius: 10px;
+	border-color:white;
+
+}
+#boxc{
+	width: 710px;
+	height: 100px;
+	float: right;
+	background-color: black;
+}
+#infoem
+{
+	width: 960px;
+	height: 100px;
+	display: inline;
+}
+#enrollnow{
+	width: 960px;
+	height: 50px;
+	background-color: black;
+	margin-top: 40px;
+	float: right;
+}
+#ab{width: 140px;
+	height: 40px;
+	background-color: white;
+margin-top: 5px;
+border-radius: 25px 25px 25px 25px;
+	float: right;
+
+}
+#cd{width: 810px;
+	height: 50px;
+	background-color: black;
+
+	float: left;
+
+}
+#time{
+	width: 960px;
+	height: 50px;
+	background-color: #c92693;
+
+}

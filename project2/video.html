@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<script>
+window.onload=choosePic;
+var theAd= 0;
+var myPix=["images/a.jpg","images/b.jpg","images/c.jpg","images/d.jpg","images/e.jpg","images/f.jpg","images/g.jpg","images/h.jpg"];
+length=myPix.length;
+function choosePic(){
+	var randomNum= Math.floor(Math.random()*length);
+	document.getElementById("myPicture").src= myPix[randomNum];
+	rotate();
+}
+function rotate(){
+	theAd++;
+	if(theAd==myPix.length){
+		theAd=0;
+	}
+	document.getElementById("myPicture").src=myPix[theAd];
+	setTimeout(rotate, 3*1000);
+
+}
+</script>
+</head>
+<body>
+	<img src="images/a.jpg" width="960" height="365" id="myPicture" alt="some image" align="left">
+</body>
+</html>

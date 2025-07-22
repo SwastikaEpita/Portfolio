@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css?family=Play');
+
+h3{
+font-family:Play;
+font-size:20px;
+font-varient: small-caps;
+}
+*{
+	margin:0px;
+	padding:0px;}
+body
+{
+	background-color: black;
+	background-size: 100%;
+	
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+#box{
+	width: 1310px;
+	height: 1560px;
+	background-color: black;
+	
+
+
+
+}
+#up{
+	width: 1310px;
+	height: 60px;
+	background-color: brown;
+	background-image: url('../images/444.jpg');
+
+
+
+
+}
+#two{
+	float: right;
+
+}
+#two ul {
+	list-style-type: none;
+	padding-left: 190px;
+
+	float: center;
+	margin-top: 2px;
+
+
+}
+#two ul li{
+	display: inline;
+	margin:2px;
+	padding:20px;
+}
+#two ul li:hover{
+	background-color: red;
+	margin: 0px;
+	padding: 0px;
+}
+#home{
+	width: 1310px;
+	height: 100px;
+	background-color: pink;
+	background-image: url('../images/88888888.jpg');
+}
+#q{width: 1310px;
+	height: 100px;
+	background-color: pink;
+	background-image: url('../images/444.jpg');}
+
+#q ul{
+	list-style-type: none;
+	padding-left: 400px;
+
+	float: center;
+	margin-top:  0px;
+	padding-top: 50px;
+
+
+}
+#q ul li{
+	display: inline;
+	margin:10px;
+	padding:10px;
+}
+#q ul li:hover{
+	background-color: #c92693;
+	margin: 0px;
+	padding: 0px;
+}
+	
+
+#white{
+	width: 1310px;
+	height: 200px;
+	background-image: url('../images/aaa.jpg');}
+
+
+
+
+
+#luck{
+    width: 1310px;
+	min-height: 480px;
+	background-color: black;
+	background-image: url('../images/wwww.jpg');
+	
+	
+}
+#pic1{
+
+	width: 328px;
+	height: 480px;
+	float: left;
+		
+
+}
+#pic2{
+
+	width: 328px;
+	height: 480px;
+	float: left;
+		
+	
+
+
+
+}
+#pic3{
+s
+	width: 327px;
+	height: 480px;
+	float: left;
+}
+#pic4{
+	padding-top: 150px;
+	width: 327px;
+	height: 480px;
+	float: right;
+}
+#pic1 img{
+	border-radius:0px 30px 0px 30px;
+	opacity: 1;
+}
+#pic2 img{
+	border-radius:0px 30px 0px 30px;
+	opacity: 1;
+}
+#pic3 img{
+	border-radius:0px 30px 0px 30px;
+	opacity: 1;
+}
+#pic1 img:hover{
+	opacity: 0.7;
+}
+#pic2 img:hover{
+	opacity: 0.7;
+}
+#pic3 img:hover{
+	opacity: 0.7;
+}
+
+#w{
+	width: 1000px;
+	height: 200px;
+	border-radius: 25px 25px 25px 25px;
+	background-color: white;
+	margin-left: 180px;
+background-image: url('../images/77.jpg');
+	
+
+
+}
+#t{
+	margin-left: 150px;
+
+}
+#aa{
+
+width: 1310px;
+	height: 400px;
+	background-color:brown;
+	background-image: url('../images/wwww.jpg');
+
+}
+#bb{
+	float: left;
+	width: 327px;
+	height: 400px;
+
+}
+#bb img{border-radius: 180px 180px 180px 180px;
+
+}
+#cc{
+	width: 500px;
+	height: 400px;
+	background-color: pink;
+	float: left;
+	margin-left: 80px;
+	border-radius: 80px 80px 80px 80px;
+	
+
+
+}
+#dd{
+float: right;
+width: 327px;
+height: 400px;
+margin-: 30px;
+	
+}
+#dd img{
+		border-radius: 180px 180px 180px 180px;
+}
